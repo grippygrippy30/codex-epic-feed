@@ -1,0 +1,22 @@
+{
+  "name": "codex-epic-feed",
+  "version": "1.0.0",
+  "description": "Unreal Engine feed scraper",
+  "main": "scrape.js",
+  "type": "commonjs",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "keywords": [
+    "scraper",
+    "unrealengine",
+    "cheerio",
+    "feed"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.7.0"
+  }
+}
